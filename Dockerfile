@@ -2,8 +2,7 @@ FROM node:latest
 
 WORKDIR /srv
 
-ADD ./srv
-ADD ./config.js /srv
+ADD . ./srv
 
 RUN npm install
 
